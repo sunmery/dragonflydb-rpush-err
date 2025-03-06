@@ -7,6 +7,8 @@ require (
 	github.com/casbin/redis-adapter/v3 v3.5.0
 )
 
+replace github.com/casbin/casbin/v2 => ./casbin
+
 require (
 	github.com/bmatcuk/doublestar/v4 v4.6.1 // indirect
 	github.com/casbin/govaluate v1.3.0 // indirect

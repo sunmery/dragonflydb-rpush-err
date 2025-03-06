@@ -38,7 +38,7 @@ func main() {
 	if err2 != nil {
 		panic(fmt.Errorf("failed to initialize enforcer: %v", err2))
 	}
-	fmt.Printf("e: %v\n", e)
+	fmt.Printf("e: %+v\n", e)
 
 	// Load the policy from DB.
 	err3 := e.LoadPolicy()
@@ -63,3 +63,4 @@ func main() {
 		panic(fmt.Errorf("failed to save policy: %v", err5))
 	}
 }
+
